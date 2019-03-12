@@ -12,10 +12,11 @@ Scarica il pacchetto Python3.
 sudo apt-get install python3
 ```
 
-Scarica il pacchetto pygame.
+Scarica il pacchetti pygame.
 
 ```bash 
 sudo apt-get install python3-pygame
+apt-get install libsdl-mixer1.2
 ```
 Scarica i pacchetti RPi.GPIO
 
@@ -41,5 +42,5 @@ Vai nella directory appena scaricata e fai partire il programma e testalo.
 sudo python3 panchinarasp.py
 ```
 
-Per farlo partire in autorun, inserisci nella cartella local il percorso del file py da eseguire all'avvio.
+Per farlo partire in autorun, inserisci nella cartella rc.local il percorso del file py da eseguire all'avvio.
 
